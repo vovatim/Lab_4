@@ -8,7 +8,7 @@ class Unique(object):
         #           ignore_case = False, Aбв и АБВ одинаковые строки, одна из них удалится
         # По-умолчанию ignore_case = False
         pass
-        
+
     def __next__(self):
         # Нужно реализовать __next__    
         pass
