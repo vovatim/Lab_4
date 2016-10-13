@@ -1,4 +1,5 @@
-import sys
-from librip.ctxmngrs import json_from_file
+from time import sleep
+from librip.ctxmngrs import timer
 
-# Реализация задания 5
+with timer():
+    sleep(5.5)
